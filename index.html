@@ -14,6 +14,7 @@
 
         <div class="inputBox">
             <input type="text" class="passBox" id="passBox" disabled>
+            <span id="copyIcon"><i class="fa-solid fa-copy"></i></span>
         </div>
 
         <input type="range" min="1" max="10" value="5" id="inputSlider">
@@ -27,22 +28,22 @@
          
         <div class="checkbox1">
             <label for="lowerCase">Include LowerCase Letters (a-z)</label>
-            <input type="checkbox" name="lowerCase" id="lowerCase">
+            <input type="checkbox" name="lowerCase" id="lowerCase" checked>
         </div>
 
         <div class="checkbox1">
             <label for="upperCase">Include upperCase Letters (A-Z)</label>
-            <input type="checkbox" name="upperCase" id="upperCase">
+            <input type="checkbox" name="upperCase" id="upperCase" checked>
         </div>
 
         <div class="checkbox1">
             <label for="numbers">Include numbers (0-9)</label>
-            <input type="checkbox" name="numbers" id="numbers">
+            <input type="checkbox" name="numbers" id="numbers" checked>
         </div>
 
         <div class="checkbox1">
             <label for="symbols">Include symbols </label>
-            <input type="checkbox" name="symbols" id="symbols">
+            <input type="checkbox" name="symbols" id="symbols" checked>
         </div>
 
         <button class="genBtn" id="genBtn"> Generate password </button>
@@ -50,5 +51,6 @@
     </div>
     
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f7eac2d951.js" crossorigin="anonymous"></script>
 </body>
 </html>
